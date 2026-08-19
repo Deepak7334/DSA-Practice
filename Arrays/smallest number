@@ -1,0 +1,9 @@
+arr = [18, 7, 25, 3, 14, 9]
+
+smallest = arr[0]
+
+for num in arr:
+    if num < smallest:
+        smallest = num
+
+print(smallest)        
