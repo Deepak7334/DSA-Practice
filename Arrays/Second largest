@@ -1,0 +1,9 @@
+arr = [45,20,21,46]
+largest = second_largest = arr[0]
+for num in arr:
+    if num > largest:
+        second_larhest = largest
+        largest = num
+    if num > second_largest and num != largest:
+        second_largest = num
+print(second_largest)

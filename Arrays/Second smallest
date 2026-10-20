@@ -1,0 +1,14 @@
+
+arr = [18, 4, 25, 3, 8, 9]
+
+smallest = arr[0]
+second_smallest = float('inf')
+
+for num in arr:
+    if num < smallest:
+        second_smallest = smallest
+        smallest = num
+    elif num > smallest and num < second_smallest:
+        second_smallest = num
+
+print(second_smallest)
